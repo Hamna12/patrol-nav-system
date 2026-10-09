@@ -1,0 +1,33 @@
+{
+  "playing": false,
+  "graph_active": true,
+  "dof_names": [
+    "Rear_Left_Joint",
+    "Rear_Right_Joint",
+    "Front_Right_Joint",
+    "Front_Left_Joint"
+  ],
+  "damping": [
+    572957.8125,
+    572957.8125,
+    0.0,
+    0.0
+  ],
+  "max_efforts": [
+    3.4028234663852886e+38,
+    3.4028234663852886e+38,
+    0.0,
+    0.0
+  ],
+  "front_drive_apis": [
+    false,
+    false
+  ],
+  "applied_targets": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "horizontal_speed": 0.00032904063118621707
+}

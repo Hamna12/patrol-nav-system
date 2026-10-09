@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "simulation_seconds": 25.85000134818256,
+  "goal_error_metres": 0.23074968567482287,
+  "final_speed_mps": 0.00011314277486176164,
+  "arrival_tolerance_metres": 0.25,
+  "waypoints_reached": 2
+}

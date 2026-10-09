@@ -1,0 +1,483 @@
+{
+  "root_layer": "file:/home/hmna/Downloads/Warehouse_Robot_Autonomous_Navigation.usd",
+  "meters_per_unit": 1.0,
+  "up_axis": "Z",
+  "layers": [
+    "file:/home/hmna/Downloads/Warehouse_Robot_Autonomous_Navigation.usd",
+    "anon:0x7a2f640087a0",
+    "/home/hmna/Downloads/IsaacBot.usd"
+  ],
+  "prims": [
+    {
+      "path": "/World/IsaacBot/IsaacBot",
+      "type": "Xform",
+      "active": true,
+      "schemas": [
+        "PhysicsArticulationRootAPI",
+        "PhysxArticulationAPI"
+      ],
+      "attributes": {
+        "physxArticulation:articulationEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physxArticulation:enabledSelfCollisions": {
+          "value": "True",
+          "connections": []
+        },
+        "physxArticulation:sleepThreshold": {
+          "value": "4.999999873689376e-05",
+          "connections": []
+        },
+        "physxArticulation:solverPositionIterationCount": {
+          "value": "32",
+          "connections": []
+        },
+        "physxArticulation:solverVelocityIterationCount": {
+          "value": "1",
+          "connections": []
+        },
+        "physxArticulation:stabilizationThreshold": {
+          "value": "9.999999747378752e-06",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        },
+        "xformOp:orient": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "xformOp:rotateXYZ": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "xformOp:scale": {
+          "value": "(1, 1, 1)",
+          "connections": []
+        },
+        "xformOp:translate": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "xformOpOrder": {
+          "value": "[xformOp:translate, xformOp:orient, xformOp:scale]",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Rear_Left_Wheel/Rear_Left_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [
+        "PhysicsDriveAPI:angular"
+      ],
+      "attributes": {
+        "drive:angular:physics:damping": {
+          "value": "10000.0",
+          "connections": []
+        },
+        "drive:angular:physics:maxForce": {
+          "value": "inf",
+          "connections": []
+        },
+        "drive:angular:physics:stiffness": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetPosition": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetVelocity": {
+          "value": "-100.0",
+          "connections": []
+        },
+        "drive:angular:physics:type": {
+          "value": "force",
+          "connections": []
+        },
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(-0.25, 0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Rear_Left_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Rear_Right_Wheel/Rear_Right_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [
+        "PhysicsDriveAPI:angular"
+      ],
+      "attributes": {
+        "drive:angular:physics:damping": {
+          "value": "10000.0",
+          "connections": []
+        },
+        "drive:angular:physics:maxForce": {
+          "value": "inf",
+          "connections": []
+        },
+        "drive:angular:physics:stiffness": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetPosition": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetVelocity": {
+          "value": "-100.0",
+          "connections": []
+        },
+        "drive:angular:physics:type": {
+          "value": "force",
+          "connections": []
+        },
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(-0.25, -0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Rear_Right_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Right_Wheel/Front_Right_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.25, -0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Right_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Left_Wheel/Front_Left_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.25, 0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Left_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Sensors/Sensor_Mount/FixedJoint",
+      "type": "PhysicsFixedJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.4991244, 0.15407139, 0.6450167)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0.14481008, -0.03249107, -0.21055815)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Sensors/Sensor_Mount"
+        ],
+        "proxyPrim": []
+      }
+    }
+  ]
+}

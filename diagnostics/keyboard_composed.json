@@ -1,0 +1,1399 @@
+{
+  "root_layer": "file:/home/hmna/Downloads/Warehouse_Robot_Autonomous_Navigation.usd",
+  "meters_per_unit": 1.0,
+  "up_axis": "Z",
+  "layers": [
+    "file:/home/hmna/Downloads/Warehouse_Robot_Autonomous_Navigation.usd",
+    "anon:0x7a2f640087a0",
+    "/home/hmna/Downloads/IsaacBot.usd"
+  ],
+  "prims": [
+    {
+      "path": "/World/IsaacBot/IsaacBot",
+      "type": "Xform",
+      "active": true,
+      "schemas": [
+        "PhysicsArticulationRootAPI",
+        "PhysxArticulationAPI"
+      ],
+      "attributes": {
+        "physxArticulation:articulationEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physxArticulation:enabledSelfCollisions": {
+          "value": "True",
+          "connections": []
+        },
+        "physxArticulation:sleepThreshold": {
+          "value": "4.999999873689376e-05",
+          "connections": []
+        },
+        "physxArticulation:solverPositionIterationCount": {
+          "value": "32",
+          "connections": []
+        },
+        "physxArticulation:solverVelocityIterationCount": {
+          "value": "1",
+          "connections": []
+        },
+        "physxArticulation:stabilizationThreshold": {
+          "value": "9.999999747378752e-06",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        },
+        "xformOp:orient": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "xformOp:rotateXYZ": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "xformOp:scale": {
+          "value": "(1, 1, 1)",
+          "connections": []
+        },
+        "xformOp:translate": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "xformOpOrder": {
+          "value": "[xformOp:translate, xformOp:orient, xformOp:scale]",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Rear_Left_Wheel/Rear_Left_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [
+        "PhysicsDriveAPI:angular"
+      ],
+      "attributes": {
+        "drive:angular:physics:damping": {
+          "value": "10000.0",
+          "connections": []
+        },
+        "drive:angular:physics:maxForce": {
+          "value": "inf",
+          "connections": []
+        },
+        "drive:angular:physics:stiffness": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetPosition": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetVelocity": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:type": {
+          "value": "force",
+          "connections": []
+        },
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(-0.25, 0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Rear_Left_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Rear_Right_Wheel/Rear_Right_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [
+        "PhysicsDriveAPI:angular"
+      ],
+      "attributes": {
+        "drive:angular:physics:damping": {
+          "value": "10000.0",
+          "connections": []
+        },
+        "drive:angular:physics:maxForce": {
+          "value": "inf",
+          "connections": []
+        },
+        "drive:angular:physics:stiffness": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetPosition": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:targetVelocity": {
+          "value": "0.0",
+          "connections": []
+        },
+        "drive:angular:physics:type": {
+          "value": "force",
+          "connections": []
+        },
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(-0.25, -0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Rear_Right_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Right_Wheel/Front_Right_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.25, -0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Right_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Left_Wheel/Front_Left_Joint",
+      "type": "PhysicsRevoluteJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:axis": {
+          "value": "Y",
+          "connections": []
+        },
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.25, 0.75, 0)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(0.70710677, -0.70710677, 0, 0)",
+          "connections": []
+        },
+        "physics:lowerLimit": {
+          "value": "-inf",
+          "connections": []
+        },
+        "physics:upperLimit": {
+          "value": "inf",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Left_Wheel"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Front_Sensors/Sensor_Mount/FixedJoint",
+      "type": "PhysicsFixedJoint",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "physics:breakForce": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:breakTorque": {
+          "value": "3.4028234663852886e+38",
+          "connections": []
+        },
+        "physics:collisionEnabled": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:excludeFromArticulation": {
+          "value": "False",
+          "connections": []
+        },
+        "physics:jointEnabled": {
+          "value": "True",
+          "connections": []
+        },
+        "physics:localPos0": {
+          "value": "(0.4991244, 0.15407139, 0.6450167)",
+          "connections": []
+        },
+        "physics:localPos1": {
+          "value": "(0.14481008, -0.03249107, -0.21055815)",
+          "connections": []
+        },
+        "physics:localRot0": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "physics:localRot1": {
+          "value": "(1, 0, 0, 0)",
+          "connections": []
+        },
+        "purpose": {
+          "value": "default",
+          "connections": []
+        },
+        "visibility": {
+          "value": "inherited",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "physics:body0": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ],
+        "physics:body1": [
+          "/World/IsaacBot/IsaacBot/Front_Sensors/Sensor_Mount"
+        ],
+        "proxyPrim": []
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller",
+      "type": "OmniGraph",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "allowAutoInstancing": {
+          "value": "True",
+          "connections": []
+        },
+        "evaluationMode": {
+          "value": "Automatic",
+          "connections": []
+        },
+        "evaluator:type": {
+          "value": "execution",
+          "connections": []
+        },
+        "fabricCacheBacking": {
+          "value": "StageWithoutHistory",
+          "connections": []
+        },
+        "fileFormatVersion": {
+          "value": "(1, 9)",
+          "connections": []
+        },
+        "pipelineStage": {
+          "value": "pipelineStageSimulation",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ArrayNames",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:arraySize": {
+          "value": "2",
+          "connections": []
+        },
+        "inputs:arrayType": {
+          "value": "token[]",
+          "connections": []
+        },
+        "inputs:input0": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:input1": {
+          "value": "Rear_Left_Joint",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ConstructArray",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:array": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/OnPlaybackTick",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "node:type": {
+          "value": "omni.graph.action.OnPlaybackTick",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:deltaSeconds": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:frame": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:tick": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:time": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/DifferentialController",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:angularVelocity": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/SpeedAngular.outputs:product"
+          ]
+        },
+        "inputs:dt": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:execIn": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/OnPlaybackTick.outputs:tick"
+          ]
+        },
+        "inputs:linearVelocity": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/SpeedLinear.outputs:product"
+          ]
+        },
+        "inputs:maxAcceleration": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:maxAngularAcceleration": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:maxAngularSpeed": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:maxDeceleration": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:maxLinearSpeed": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:maxWheelSpeed": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:wheelDistance": {
+          "value": "1.5",
+          "connections": []
+        },
+        "inputs:wheelRadius": {
+          "value": "0.375",
+          "connections": []
+        },
+        "node:type": {
+          "value": "isaacsim.robot.wheeled_robots.DifferentialController",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:velocityCommand": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ArticulationController",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [
+        "NodeGraphNodeAPI"
+      ],
+      "attributes": {
+        "inputs:effortCommand": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:execIn": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/OnPlaybackTick.outputs:tick"
+          ]
+        },
+        "inputs:jointIndices": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:jointNames": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ArrayNames.outputs:array"
+          ]
+        },
+        "inputs:positionCommand": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:robotPath": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:velocityCommand": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/DifferentialController.outputs:velocityCommand"
+          ]
+        },
+        "node:type": {
+          "value": "isaacsim.core.nodes.IsaacArticulationController",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "inputs:targetPrim": [
+          "/World/IsaacBot/IsaacBot"
+        ]
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/W",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:key": {
+          "value": "W",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ReadKeyboardState",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:altOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:ctrlOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:isPressed": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:shiftOut": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/A",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:key": {
+          "value": "A",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ReadKeyboardState",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:altOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:ctrlOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:isPressed": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:shiftOut": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/S",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:key": {
+          "value": "S",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ReadKeyboardState",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:altOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:ctrlOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:isPressed": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:shiftOut": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/D",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:key": {
+          "value": "D",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ReadKeyboardState",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:altOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:ctrlOut": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:isPressed": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:shiftOut": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleW",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:role": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:value": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/W.outputs:isPressed"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ToDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:converted": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleA",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:role": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:value": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/A.outputs:isPressed"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ToDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:converted": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleS",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:role": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:value": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/S.outputs:isPressed"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ToDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:converted": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleD",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:role": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:value": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/D.outputs:isPressed"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ToDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:converted": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegateLinear",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleS.outputs:converted"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegOne.inputs:value"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Multiply",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:product": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegateAngular",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleD.outputs:converted"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegOne.inputs:value"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Multiply",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:product": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/AddLinear",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleW.outputs:converted"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegateLinear.outputs:product"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Add",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:sum": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/AddAngular",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ToDoubleA.outputs:converted"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegateAngular.outputs:product"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Add",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:sum": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/SpeedLinear",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/AddLinear.outputs:sum"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ScaleLinear.inputs:value"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Multiply",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:product": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ScaleLinear",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:value": {
+          "value": "1.0",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ConstantDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/SpeedAngular",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:a": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/AddAngular.outputs:sum"
+          ]
+        },
+        "inputs:b": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ScaleAngular.inputs:value"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.Multiply",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:product": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/ScaleAngular",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:value": {
+          "value": "1.5",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ConstantDouble",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/NegOne",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [],
+      "attributes": {
+        "inputs:value": {
+          "value": "-1",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ConstantInt",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/isaac_read_world_pose",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [
+        "NodeGraphNodeAPI"
+      ],
+      "attributes": {
+        "node:type": {
+          "value": "isaacsim.core.nodes.IsaacReadWorldPose",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "2",
+          "connections": []
+        },
+        "outputs:orientation": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:scale": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:translation": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {
+        "inputs:prim": [
+          "/World/IsaacBot/IsaacBot/Chassis"
+        ]
+      }
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/break_3_vector",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [
+        "NodeGraphNodeAPI"
+      ],
+      "attributes": {
+        "inputs:tuple": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/isaac_read_world_pose.outputs:translation"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.BreakVector3",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:x": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:y": {
+          "value": "None",
+          "connections": []
+        },
+        "outputs:z": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/print_text",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [
+        "NodeGraphNodeAPI"
+      ],
+      "attributes": {
+        "inputs:execIn": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/OnPlaybackTick.outputs:tick"
+          ]
+        },
+        "inputs:logLevel": {
+          "value": "None",
+          "connections": []
+        },
+        "inputs:text": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/to_string.outputs:converted"
+          ]
+        },
+        "inputs:toScreen": {
+          "value": "True",
+          "connections": []
+        },
+        "inputs:viewport": {
+          "value": "None",
+          "connections": []
+        },
+        "node:type": {
+          "value": "omni.graph.ui_nodes.PrintText",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:execOut": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    },
+    {
+      "path": "/World/IsaacBot/IsaacBot/Graphs/differential_controller/to_string",
+      "type": "OmniGraphNode",
+      "active": true,
+      "schemas": [
+        "NodeGraphNodeAPI"
+      ],
+      "attributes": {
+        "inputs:value": {
+          "value": "None",
+          "connections": [
+            "/World/IsaacBot/IsaacBot/Graphs/differential_controller/break_3_vector.outputs:y"
+          ]
+        },
+        "node:type": {
+          "value": "omni.graph.nodes.ToString",
+          "connections": []
+        },
+        "node:typeVersion": {
+          "value": "1",
+          "connections": []
+        },
+        "outputs:converted": {
+          "value": "None",
+          "connections": []
+        }
+      },
+      "relationships": {}
+    }
+  ]
+}

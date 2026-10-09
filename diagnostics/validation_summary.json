@@ -1,0 +1,58 @@
+{
+  "one_waypoint": {
+    "state": "complete",
+    "reason": "all waypoints reached",
+    "simulation_seconds": 7.033333700150251,
+    "reached": 1,
+    "requested": 1,
+    "final_error_m": 0.06531824246644814,
+    "final_speed_m_s": 0.0008668331484892262,
+    "max_speed_last_half_second_m_s": 0.003084966937282689,
+    "heading_change_rad": 0.0004865299425744762,
+    "turn_command_steps": 0
+  },
+  "multiple_waypoints": {
+    "state": "complete",
+    "reason": "all waypoints reached",
+    "simulation_seconds": 13.016667345538735,
+    "reached": 2,
+    "requested": 2,
+    "final_error_m": 0.05755062518609837,
+    "final_speed_m_s": 0.0019230451979812494,
+    "max_speed_last_half_second_m_s": 0.002275352294229878,
+    "heading_change_rad": -0.0007846848178758026,
+    "turn_command_steps": 0
+  },
+  "turning_waypoints": {
+    "state": "complete",
+    "reason": "all waypoints reached",
+    "simulation_seconds": 11.616667272523046,
+    "reached": 2,
+    "requested": 2,
+    "final_error_m": 0.14896359067593648,
+    "final_speed_m_s": 6.750647674359355e-05,
+    "max_speed_last_half_second_m_s": 0.00017563599589015538,
+    "heading_change_rad": 0.5883056431593015,
+    "turn_command_steps": 350
+  },
+  "controller_conflict": [
+    {
+      "graph_active": true,
+      "command_interval_displacement_m": 0.16143254405725133,
+      "final_pose": [
+        -28.77028465270996,
+        -13.895715713500977,
+        -0.4194494788812756
+      ]
+    },
+    {
+      "graph_active": false,
+      "command_interval_displacement_m": 0.15702888152504194,
+      "final_pose": [
+        -28.626678466796875,
+        -13.960021018981934,
+        -0.41875753834466445
+      ]
+    }
+  ]
+}

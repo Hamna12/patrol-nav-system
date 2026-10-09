@@ -1,0 +1,10 @@
+{
+  "state": "complete",
+  "reason": "all waypoints reached",
+  "simulation_seconds": 31.816668326035142,
+  "waypoints_reached": 2,
+  "travel_metres": 9.671119302204819,
+  "goal_error_metres": 0.12562295382271826,
+  "final_speed_mps": 0.00045542824014297985,
+  "peak_speed_mps": 0.7314476703945003
+}
